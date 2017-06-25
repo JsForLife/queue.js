@@ -1,9 +1,3 @@
-interface QueueMap {
-  [student_id:number]:Queue;
-}
-
-export let queue_map:QueueMap = {};
-
 const BUSY = 'queue/busy';
 const FREE = 'queue/free';
 
